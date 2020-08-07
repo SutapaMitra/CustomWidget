@@ -4,7 +4,7 @@
 	"name": "Google Gauge Box",
 	"description": "A Google Gauge box",
 	"newInstancePrefix": "googleGauge",
-	"icon": "http://73.111.220.85:3000/static/googleGauge.png",
+	"icon": "https://raw.githubusercontent.com/SutapaMitra/CustomWidget/master/googleGauge.png",
 	"vendor": "SAP",
 	"eula": "",
 	"license": "",
@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-sample-google",
-			"url": "http://73.111.220.85:3000/static/googleGauge.js",
+			"url": "https://raw.githubusercontent.com/SutapaMitra/CustomWidget/master/googleGauge.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}

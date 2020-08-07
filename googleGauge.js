@@ -337,7 +337,7 @@
 			<div id="chart_div"></div>
 		`;
 
-	class GoogleGauge extends HTMLElement {
+	class googleGauge extends HTMLElement {
 		constructor() {
 			super(); 
 			let shadowRoot = this.attachShadow({mode: "open"});
@@ -401,5 +401,5 @@
 		}
 	}
 
-	customElements.define("com-sap-sample-google", GoogleGauge);
+	customElements.define("com-sap-sample-google", googleGauge);
 })();
